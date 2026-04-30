@@ -17,7 +17,6 @@ Few-shot learning poses a critical challenge due to insufficient feature discrim
 The dataset can be downloaded from the following links:
 * [miniImageNet](https://drive.google.com/file/d/1fJAK5WZTjerW7EWHHQAR9pRJVNg1T1Y7/view?usp=sharing) 
 * [tieredImageNet](https://drive.google.com/file/d/1Letu5U_kAjQfqJjNPWS_rdjJ7Fd46LbX/view?usp=sharing)
-* [CIFAR-FS](https://drive.google.com/file/d/1GjGMI0q3bgcpcB_CjI40fX54WgLPuTpS/view?usp=sharing)
 * [CUB](https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view)
 * [glove word embedding](https://nlp.stanford.edu/projects/glove/)
 
@@ -39,10 +38,12 @@ Place the pre-trained models in the `checkpoint` directory. The pre-trained mode
 ## Evaluate MSIFN method
 To evaluate MSIFN, run:
 ```eval
-python MIF_eval.py
+cd bash
+sh mini1shot.sh
 ```
 
 ## Acknowlegements
 Our project references the codes in the following repos.
 * [Featwalk](https://github.com/exceefind/FeatWalk)
+* [DeepBDC](https://github.com/Fei-Long121/DeepBDC)
 * [DC](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration)
